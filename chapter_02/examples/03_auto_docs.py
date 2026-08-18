@@ -1,5 +1,4 @@
-from fastapi import FastAPI
-from fastapi import status
+from fastapi import FastAPI, status
 from fastapi.responses import RedirectResponse
 
 app = FastAPI()
